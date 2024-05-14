@@ -63,7 +63,6 @@ This project is open-source and available under the MIT License.
 For any queries or further details, please email us at kmlshnbusiness@gmail.com.
 ```
 
-To ensure this displays correctly in GitHub:
 
 - Make sure there is an empty line before and after each code block.
 - Use "```plaintext" to specify non-highlighted text in your directory structure block if you're not highlighting specific syntax, which helps with clarity.
