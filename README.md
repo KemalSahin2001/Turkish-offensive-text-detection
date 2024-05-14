@@ -1,3 +1,6 @@
+The markdown syntax issue in your `README.md` file on GitHub is likely due to incorrect usage or nesting of code blocks and list items. Markdown requires precise indentation and spacing to render correctly. Here’s a corrected version that should display properly on GitHub:
+
+```markdown
 # Turkish Text Classification Project
 
 This repository hosts the code and resources for a machine learning project aimed at classifying Turkish texts into categories: not offensive, sexist, racist, profanity, or insult. The classification is multi-labeled and utilizes a dataset of 80,000 hand-labeled rows of Turkish data.
@@ -31,29 +34,23 @@ project/
 │
 ├── README.md
 └── requirements.txt                 # Project dependencies
+```
 
+## Download Links
 
- ## Download Links
+- **Model1_v1**: [Download here](https://drive.google.com/file/d/1rDB-s9XewTmesH5C6wmrdd2Wff7CcO0F/view?usp=sharing)
+- **Turkish Word List**: [Download here](https://drive.google.com/file/d/1LNJVF3Dbky3X6VymeLorhM_bHnjAgvvj/view?usp=sharing)
+- **Zemberek**: [Download here](https://drive.google.com/file/d/18GPMUXwpBJx2GeyN1ZT7DNc6pbUSB0mL/view?usp=sharing)
+- **Model2_v1**: [Download here](https://drive.google.com/file/d/15u5M9V4e8Jplpi2f5rklsYx_FwkWNJAY/view?usp=sharing)
 
-- **Model1_v1**: [Download](https://drive.google.com/file/d/1rDB-s9XewTmesH5C6wmrdd2Wff7CcO0F/view?usp=sharing)
-- **turkish-word-list-master.zip**: [Download](https://drive.google.com/file/d/1LNJVF3Dbky3X6VymeLorhM_bHnjAgvvj/view?usp=sharing)
-- **Zemberek**: [Download](https://drive.google.com/file/d/18GPMUXwpBJx2GeyN1ZT7DNc6pbUSB0mL/view?usp=sharing)
-- **Model2_v1**: [Download](https://drive.google.com/file/d/15u5M9V4e8Jplpi2f5rklsYx_FwkWNJAY/view?usp=sharing)
-
- ## Getting Started
+## Getting Started
 
 1. Clone the repository to your local machine.
 2. Install the necessary Python dependencies:
-
    ```bash
    pip install -r requirements.txt
    ```
-
 3. Start exploring the project with the `Lookup.ipynb` Jupyter notebook for an overview and initial analysis.
-
-## Usage
-
-Please contact us at kmlshnbusiness@gmail.com to access the training dataset or for more information about using the models and codebase.
 
 ## Contributing
 
@@ -68,4 +65,8 @@ This project is open-source and available under the MIT License.
 For any queries or further details, please email us at kmlshnbusiness@gmail.com.
 ```
 
-This README is crafted to provide a clear overview of your project structure, the purpose of each directory, and how to get started with your project. It also includes direct download links for your models and external data to facilitate easy setup for new users or contributors.
+To ensure this displays correctly in GitHub:
+
+- Make sure there is an empty line before and after each code block.
+- Use "```plaintext" to specify non-highlighted text in your directory structure block if you're not highlighting specific syntax, which helps with clarity.
+- Ensure list items and code blocks inside them are properly indented and formatted.
