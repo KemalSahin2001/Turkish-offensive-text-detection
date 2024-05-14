@@ -1,5 +1,3 @@
-The markdown syntax issue in your `README.md` file on GitHub is likely due to incorrect usage or nesting of code blocks and list items. Markdown requires precise indentation and spacing to render correctly. Here’s a corrected version that should display properly on GitHub:
-
 ```markdown
 # Turkish Text Classification Project
 
