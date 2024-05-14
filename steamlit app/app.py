@@ -57,7 +57,7 @@ with col2:
 
     ### 📧 Contact Information
     - **Email:** kmlshnbusiness@gmail.com 
-    - **Email:** burakkurt015@gmail.com.com 
+    - **Email:** burakkurt015@gmail.com 
     - **GitHub:** [Visit our repository](https://github.com/KemalSahin2001/Turkish-offensive-text-detection)
     """)
 
